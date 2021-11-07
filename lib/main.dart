@@ -95,6 +95,37 @@ class _MyHomePageState extends State<MyHomePage> {
                 ],
               ),
               SizedBox(height: 20,),
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Container(
+
+
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(10)),
+                    color: Colors.white
+                  ),
+
+                  width:  double.infinity ,
+                  height: 180.0,
+                  child: Column(
+                    children: [
+                      SizedBox(height: 10,),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Text("Start Time: 4 am"),
+                          Divider(height: 10, thickness: 20,),
+
+                          Text("Champions League"),
+                        ],
+                      ),
+
+
+
+                    ],
+                  )
+                ),
+              )
 
 
 
@@ -110,5 +141,5 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
 
-  
+
 }
